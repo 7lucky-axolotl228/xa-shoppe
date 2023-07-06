@@ -1,5 +1,7 @@
 :root {
-
+  --orange: #a18a68;
+  --gray: #707070;
+  --border-bg: #d8d8d8;
 }
 /* GLOBAL */
 html {
@@ -25,11 +27,12 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "DM Sans","Arial", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 27px;
+  font-weight: 400px;
   background-color: #fff;
-  color: #222;
+  color: #000;
 }
 
 img {
@@ -49,44 +52,15 @@ img {
   overflow: hidden;
 }
 
-
-/* PLACEHOLDER STYLES */
-/* ::-webkit-input-placeholder,
-::-moz-placeholder,
-:-ms-input-placeholder,
-:-moz-placeholder {
-  color: rgb(52, 49, 61, 0.5);
-  opacity: 1;
-} */
-
-/* AUTOFILL COLOR STYLES */
-/* input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover,
-textarea:-webkit-autofill:focus,
-select:-webkit-autofill,
-select:-webkit-autofill:hover,
-select:-webkit-autofill:focus {
-  border-color: transparent;
-  -webkit-text-fill-color: inherit;
-  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
-  transition: background-color 5000s ease-in-out 0s;
-} */
-
-
-
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1300px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-left: auto;
   margin-right: auto;
 }
-
 
 /* MAIN-CONTENT */
 .main-content {
