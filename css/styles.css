@@ -57,6 +57,20 @@ img {
   overflow: hidden;
 }
 
+/* BUTTON */
+.button {
+  padding: 16px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.button-transparent {
+  border: 2px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+  background-color: transparent;
+}
+
 /* CONTAINER */
 .container {
   width: 100%;
@@ -75,7 +89,7 @@ img {
 
 /* SITE-HEADER */
 .site-header {
-  margin-bottom: 16px;
+  margin-top: 30px;
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -137,7 +151,47 @@ img {
 }
 
 
+/* MAIN */
+.main-content__container {
+  margin-top: 0;
+}
 
+.hero {
+  position: relative;
+  width: 1248px;
+  height: 646px;
+  margin-top: 0;
+  margin-bottom: 64px;
+  padding-top: 225px;
+  padding-left: 40px;
+  background-image: url("../img/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.hero__info {
+  max-width: 390px;
+  color: #fff;
+}
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 43px;
+}
+.hero__count-text {
+  margin-top: 0;
+  font-size: 26px;
+  line-height: 35px;
+}
+
+.hero__bg-slider {
+  position: absolute;
+  right: 50%;
+  bottom: 24px;
+}
 
 
 
