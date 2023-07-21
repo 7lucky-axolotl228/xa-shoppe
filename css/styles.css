@@ -96,7 +96,6 @@ img {
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
-  border-bottom: 1px solid var(--border-bg);
 }
 
 .site-header__border-bottom {
@@ -308,8 +307,6 @@ img {
   margin: 0;
 }
 
-.site-footer__container {
-}
 
 /* SITE FOOTER TOP */
 .site-footer__top {
@@ -466,6 +463,8 @@ img {
   border: 0;
   border-bottom: 1px solid var(--border-bg);
 }
+
+
 
 
 
