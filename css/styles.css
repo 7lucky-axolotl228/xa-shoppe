@@ -12,8 +12,7 @@ html {
 }
 
 *:focus {
-  outline: 2px dotted orchid;
-  outline-offset: 2px;
+  outline: none;
 }
 
 *,
@@ -465,6 +464,44 @@ img {
 }
 
 
+/* Account Styles*/
+.account {
+  width: 500px;
+  padding-top: 128px;
+  padding-bottom: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+
+}
+.account__title {
+  margin-top: 0;
+  margin-bottom: 64px;
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 43px;
+}
+.account__buttons-wrapper {
+  height: 60px;
+  padding: 5px;
+  margin-bottom: 126px;
+  border-radius: 8px;
+  background-color: #efefef;
+}
+.btn--active {
+  color: var(--text-color);
+  background-color: #fff;
+}
+.account__register {
+}
+
+.account__btn {
+  width: 236px;
+  height: 50px;
+  padding: 12px 85px;
+  border-radius: 8px;
+  border: 0;
+}
 
 
 
