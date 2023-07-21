@@ -492,8 +492,6 @@ img {
   color: var(--text-color);
   background-color: #fff;
 }
-.account__register {
-}
 
 .account__btn {
   width: 236px;
@@ -501,6 +499,42 @@ img {
   padding: 12px 85px;
   border-radius: 8px;
   border: 0;
+}
+
+/* FORM */
+.account__form {
+}
+
+.form__fields {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 72px;
+}
+
+.form__field-account {
+  padding-bottom: 12px;
+  border: 0;
+  border-bottom: 1px solid var(--border-bg);
+}
+.form__field-account:not(:last-child) {
+  margin-bottom: 46px;
+}
+
+.form__field-account:nth-child(2) {
+  margin-bottom: 27px;
+}
+
+.form__input-label {
+  margin: 0;
+  text-align: left;
+}
+
+.btn-account {
+  margin-bottom: 13px;
+}
+
+.account__password-help {
+  color: var(--text-color);
 }
 
 
