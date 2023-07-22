@@ -77,9 +77,15 @@ img {
   padding-top: 16px;
   padding-bottom: 16px;
   font-weight: 700;
-  border: 0;
+  border: 2px solid transparent;
   color: #fff;
   background-color: var(--text-color);
+}
+
+.button-black:hover {
+  color: var(--text-color);
+  border-color: var(--text-color);
+  background-color: transparent;
 }
 
 /* CONTAINER */
