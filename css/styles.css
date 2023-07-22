@@ -407,10 +407,6 @@ img {
   text-align: center;
 }
 
-.contact *:focus {
-  outline: none;
-}
-
 .contact__title {
   margin: 0;
   font-size: 33px;
@@ -429,7 +425,7 @@ img {
   margin-top: 108px;
 }
 
-.form__fields {
+.form__fields-contact {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
@@ -462,6 +458,8 @@ img {
   border: 0;
   border-bottom: 1px solid var(--border-bg);
 }
+
+
 
 
 /* Account Styles*/
