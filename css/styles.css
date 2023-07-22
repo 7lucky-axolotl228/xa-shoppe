@@ -542,7 +542,38 @@ img {
 }
 
 
-
+/* RESET PASSWORD PAGE */
+.reset {
+  max-width: 561px;
+  margin-top: 128px;
+  margin-bottom: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.reset__title {
+  margin: 0;
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 43px;
+}
+.reset__description {
+  margin-top: 39px;
+  margin-bottom: 76px;
+  font-size: 20px;
+  line-height: 26px;
+}
+.reset__form {
+}
+.reset__input {
+  width: 500px;
+  margin-bottom: 64px;
+  padding-bottom: 12px;
+  border: 0;
+  border-bottom: 1px solid var(--border-bg);
+}
 
 
 
